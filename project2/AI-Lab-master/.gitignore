@@ -1,0 +1,17 @@
+rep/
+*.pyc
+
+# IDE metadata
+.idea/
+
+# TEX files
+*.aux
+*.log
+*.out
+*.gz
+*.tex
+*.bbl
+*.blg
+
+*.doc
+*.docx

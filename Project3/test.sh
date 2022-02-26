@@ -1,0 +1,1 @@
+python test_yournet.py --best-checkpoint ./checkpoints/LeNet5/epoch-98.pth

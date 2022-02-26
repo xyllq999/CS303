@@ -1,0 +1,11 @@
+# Installation
+pip install -r requirements.txt
+# The accuracy, infer time, MACs and params of reference model (LeNet-5)
+0.980, 0.128, 0.206, 0.060
+# The accuracy, infer time, MACs and params of your model (YourNet)
+0.986, 0.105, 0.110, 0.003
+# The command to run “./train_yournet.py”
+python train_yournet.py --checkpoint-dir ./checkpoints/LeNet5/ --epoch-end 100
+# The command to run “./test_yournet.py”
+python test_lenet5.py --best-checkpoint ./checkpoints/LeNet5/epoch-98.pth
+# Others
